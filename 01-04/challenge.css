@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+article {
+  border: 2px solid black;
+  border-radius: 4px;
+  width: 900px;
+  margin: 30px auto;
+  position: relative;
+}
+
+.sale {
+  position: absolute;
+  left: -20;
+  top: -30;
+  padding: 10px;
+  background-color: red;
+  color: whitesmoke;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.color {
+  background-color: black;
+  display: inline-block;
+  margin-left: 15px;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+.color-red {
+  background-color: red;
+}
+.color-blue {
+  background-color: blue;
+}
+.color-green {
+  background-color: green;
+}
+.color-yellow {
+  background-color: yellow;
+}
+.color-pink {
+  background-color: plum;
+}
+.features li {
+  margin-left: 20px;
+  line-height: 30px;
+  margin-top: 20px;
+}
+h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: bold;
+  background-color: aliceblue;
+  text-transform: uppercase;
+}
+.features {
+  list-style: square;
+}
+.shipping {
+  font-size: 18px;
+  font-style: italic;
+  / float:right; /
+  background-color: violet;
+}
+.info {
+  margin-top: 35px;
+  font-weight: 200;
+  clear: both;
+}
+.more-info {
+  display: inline-block;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+.price {
+  font-weight: bold;
+  font-size: 20px;
+  float:left; 
+  border:1px solid black; 
+}
+.container {
+  background-color: rgb(231, 216, 235);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.product-info {
+  flex: 1;
+  padding-right: 20px;
+}
+.product-details {
+  flex: 1;
+}
+.shipping {
+  margin-right: 35px;
+}
+.details {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(54, 52, 52);
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+.cart {
+  background-color: rgb(16, 10, 10);
+  color: rgb(245, 244, 244);
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: x-large;
+  width: 100%;
+  border-top: 2px solid black;
+  padding: 15px;
+}
+.cart:hover {
+  cursor: pointer;
+  background-color: whitesmoke;
+  color: black;
+}
+.product-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
