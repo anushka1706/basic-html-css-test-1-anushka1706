@@ -1,0 +1,112 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .carasoule {
+        width: 800px;
+        margin: 100px auto;
+        background-color: #20c997;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        position: relative;
+        padding-left: 65px;
+      }
+      img {
+        height: 200px;
+        border-radius: 8px;
+        transform: scale(1.5);
+      }
+      .btn-right,
+      .btn-left {
+        height: 30px;
+        width:30px;
+        scale:1.5;
+        stroke: #add4c7;
+        border:none;
+        border-radius: 50% ;
+        background-color: #ffffff;
+        box-shadow: 0 12px 20px rgba(0, 0,0,0.3);
+      }
+      .btn-left {
+        position: absolute;
+        top:50%;
+        transform: translate(50%,-50%);
+      }
+      .btn-right {
+        position: absolute;
+        top:50%;
+      }
+      .author {
+        font-weight: bold;
+        font-size: 18px;
+        color: #e6fcf5;
+        margin-bottom: 5px;
+      }
+      .text {
+        font-size: 22px;
+        color: #ffffff;
+      }
+      .company {
+        color: #e6fcf5;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="carasoule">
+      <img src="maria.jpg" />
+      <blockquote>
+        <p class="text">
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iste,
+          fugiat nisi doloremque esse laboriosam corrupti molestiae autem minima
+          unde iusto sed odio vitae soluta alias, nesciunt explicabo. Inventore,
+          fuga."
+        </p>
+        <p class="author">Maria Stanley</p>
+        <p class="company">Product Manager at EDP commercial</p>
+      </blockquote>
+      <button class="btn-left">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.75 19.5 8.25 12l7.5-7.5"
+          />
+        </svg>
+      </button>
+      <button class="btn-right">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="m8.25 4.5 7.5 7.5-7.5 7.5"
+          />
+        </svg>
+      </button>
+      <div class="dots">
+        <div class="dot dot-1-filled"></div>
+        <div class="dot dot-2"></div>
+        <div class="dot dot-3"></div>
+        <div class="dot dot-4"></div>
+      </div>
+    </div>
+  </body>
+</html>
