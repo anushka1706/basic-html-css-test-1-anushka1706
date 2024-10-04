@@ -1,0 +1,81 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: sans-serif;
+        line-height: 1;
+        display: flex;
+        justify-content: center;
+      }
+      table {
+        width: 800px;
+        margin-top: 200px;
+        height: 300px;
+        border-collapse: collapse;
+        border-radius: 40px;
+      }
+      th,
+      td {
+        padding: 20px;
+        text-align: left;
+      }
+      th {
+        background-color: #eebefa;
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+      }
+      tbody tr:nth-child(odd) {
+        background-color: #f8f9fa;
+      }
+      tbody tr:nth-child(even) {
+        background-color: #f8f0fc;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Chair</th>
+          <th>The Laid Back</th>
+          <th>The Worker Bee</th>
+          <th>The Chair 4/2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Height</td>
+          <td>80cm</td>
+          <td>60cm</td>
+          <td>20cm</td>
+        </tr>
+        <tr>
+          <td>Width</td>
+          <td>70cm</td>
+          <td>10cm</td>
+          <td>20cm</td>
+        </tr>
+        <tr>
+          <td>Depth</td>
+          <td>80cm</td>
+          <td>60cm</td>
+          <td>20cm</td>
+        </tr>
+        <tr>
+          <td>Weight</td>
+          <td>80kg</td>
+          <td>60kg</td>
+          <td>20kg</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
