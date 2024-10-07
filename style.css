@@ -44,89 +44,94 @@
   left: 50%;
   transform: translate(-50%, 0);
 }
-.row-1 {
-  margin: 30px auto;
-  height: 50px;
-  width: 650px;
+.row-1,.row-2,.row-3 {
+  margin: 40px auto;
+  height: 68px;
+  width: 750px;
 }
 .row-2 {
-  top: 615px;
-  margin: 15px auto;
-  height: 50px;
-  width: 790px;
+  top: 875px;
+  margin: 30px auto;
+  width: 950px;
   transform: translate(-50%, 0);
 }
 .row-3 {
-  top: 1270px;
-  height: 45px;
-  width: 900px;
+  top: 1650px;
+  width: 1000px;
+  margin: 40px auto;
 }
 .col-1 {
-  height: 550px;
+  height: 750px;
   width: 100%;
-  margin: 25px auto;
-  margin-top: 10px;
+  margin: 30px 0 150px 0;
+  margin-top: 35px;
 }
 .col-1-section-1,
 .col-1-section-2 {
   float: left;
-  width: 49%;
-  height: 500px;
-  padding-right: 5px;
+  width: 750px;
+  height: 750px;
 }
 .col-1-section-2 {
   float: right;
+
 }
 .col-2 {
   clear: both;
-  height: 500px;
-  margin: 100px auto;
+  height:670px;
+  width:auto;
+  margin: 55px 0;
 }
 .div-col-2 {
-  width: 72%;
-  height: 480px;
-  margin: 0 auto;
+  width: 1400px;
+  height: 650px;
+  margin: 20px auto;
   margin-bottom: 25px;
 }
 .section-2 {
-  width: 250px;
-  height: 230px;
-  margin: 10px 10px;
+  width: 320px;
+  height: 300px;
   float: left;
+  margin: 15px 15px;
 }
 .col-3 {
   clear: both;
-  height: 750px;
+  height: 880px;
   padding: 50px;
   margin: 20px auto;
   margin-top: 130px;
 }
 .div-col-3 {
-  width: 90%;
-  height: auto;
-  margin: 25px auto;
+  width: 1400px;
+  height: 920px;
+  margin: 10px auto;
+  padding: 0;
 }
 .col-3-section {
-  width: 335px;
+  width: 390px;
   float: left;
-  height: 583px;
-  margin: 25px 25px;
+  padding: 10px;
+  height: 750px;
   background-color: white;
-  padding: 15px;
+  margin: 35px 30px 30px 25px;
 }
 .col-3-p-1,
 .col-3-p-2,
 .col-3-p-3 {
+  box-sizing: border-box;
   height: 42px;
-  width: 285px;
-  margin: 25px;
+  width: 100px;
+  margin: 20px auto;
+  padding:0 175px;
 }
 .col-3-div-1,
 .col-3-div-2,
 .col-3-div-3 {
-  height: 220px;
-  width: 285px;
-  margin: 25px;
+  box-sizing: border-box;
+  height: 310px;
+  width: 100px;
+  margin: 25px auto;
+  padding: 0 175px;
 }
 .row-4 {
   clear: both;
@@ -151,23 +156,23 @@
 .row-4-col-4-3 {
   margin-top: 15px;
   width: 240px;
-  height: 50px;
+  height: 65px;
   float: left;
 }
 .row-4-col-4-4 {
   margin-top: 15px;
   width: 240px;
-  height: 50px;
+  height: 65px;
   float: right;
 }
 .row-5 {
-  height: 350px;
+  height: 270px;
   clear: both;
   padding: 30px;
 }
 .col-4 {
   width: 700px;
-  height: 350px;
+  height: 270px;
   background-color: whitesmoke;
 }
 .col-4-1 {
