@@ -36,7 +36,7 @@
 .row-4-col-4-3,
 .row-4-col-4-4,
 .row-5 {
-  background-color: hsla(216, 2%, 45%, 0.338);
+  background-color: rgba(196,196,196,255)
 }
 .row-2,
 .row-3 {
@@ -57,7 +57,7 @@
 }
 .row-3 {
   top: 1650px;
-  width: 1000px;
+  width: 1200px;
   margin: 40px auto;
 }
 .col-1 {
@@ -97,14 +97,16 @@
 .col-3 {
   clear: both;
   height: 880px;
+  width: auto;
   padding: 50px;
   margin: 20px auto;
   margin-top: 130px;
 }
 .div-col-3 {
-  width: 1400px;
-  height: 920px;
-  margin: 10px auto;
+  box-sizing: border-box;
+  height: 850px;
+  width:1395;
+  margin: auto auto;
   padding: 0;
 }
 .col-3-section {
@@ -119,7 +121,7 @@
 .col-3-p-2,
 .col-3-p-3 {
   box-sizing: border-box;
-  height: 42px;
+  height: 45px;
   width: 100px;
   margin: 20px auto;
   padding:0 175px;
@@ -138,12 +140,12 @@
   width: 500px;
   height: 700px;
   margin: 25px auto;
-  margin-bottom: 50px;
+  margin-bottom: 120px;
 }
 .row-4-col-4 {
   width: 300px;
   margin: 35px auto;
-  height: 50px;
+  height: 65px;
 }
 .row-4-col-4-1,.row-4-col-4-2{
   width:500px;
@@ -173,7 +175,7 @@
 .col-4 {
   width: 700px;
   height: 270px;
-  background-color: whitesmoke;
+  background-color: rgba(255,255,255,255)
 }
 .col-4-1 {
   float: left;
