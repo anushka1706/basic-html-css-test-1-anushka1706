@@ -5,158 +5,176 @@
 
 .container {
   width: 100%;
+  box-sizing: border-box;
 }
 .row {
-  background-color: rgb(217, 208, 208);
   padding: 20px;
-  height: 50px;
+  height: 30px;
   margin-bottom: 20px;
 }
-.rows{
+.rows {
   position: relative;
-  height:70px;
+  height: 70px;
 }
-.row-1,.row-2,.row-3{
+.row-1,
+.row-2,
+.row-3,
+.row,
+.col-1-section-1,
+.col-1-section-2,
+.section-2,
+.col-3,
+.col-3-p-1,
+.col-3-p-2,
+.col-3-p-3,
+.col-3-div-1,
+.col-3-div-2,
+.col-3-div-3,
+.row-4-col-4,
+.row-4-col-4-1,
+.row-4-col-4-2,
+.row-4-col-4-3,
+.row-4-col-4-4,
+.row-5 {
+  background-color: hsla(216, 2%, 45%, 0.338);
+}
+.row-2,
+.row-3 {
   position: absolute;
-  background-color: rgb(217, 208, 208);
-  width:300px;
-  height:50px;
-  left:40%;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
-.row-1{
-  margin-top: 10px;
+.row-1 {
+  margin: 30px auto;
+  height: 50px;
+  width: 650px;
 }
-.row-2{
-  top:365px;
-  margin: 20px auto;
+.row-2 {
+  top: 615px;
+  margin: 15px auto;
+  height: 50px;
+  width: 790px;
+  transform: translate(-50%, 0);
 }
-.row-3{
-  top:950px;
+.row-3 {
+  top: 1270px;
+  height: 45px;
+  width: 900px;
 }
 .col-1 {
+  height: 550px;
   width: 100%;
-  height: 300px;
-  margin: 20px auto;
+  margin: 25px auto;
+  margin-top: 10px;
 }
 .col-1-section-1,
 .col-1-section-2 {
   float: left;
-  width: 45%;
-  height: 270px;
-  background-color: rgb(217, 208, 208);
+  width: 49%;
+  height: 500px;
+  padding-right: 5px;
 }
 .col-1-section-2 {
   float: right;
 }
-.section-2 {
-  width: 200px;
-  height: 150px;
-  margin: 30px 50px;
-  float: left;
-  padding: 20px;
-  background-color: rgb(217, 208, 208);
-}
 .col-2 {
   clear: both;
-  width: 95%;
   height: 500px;
-  margin: 40px auto;
+  margin: 100px auto;
+}
+.div-col-2 {
+  width: 72%;
+  height: 480px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+.section-2 {
+  width: 250px;
+  height: 230px;
+  margin: 10px 10px;
+  float: left;
 }
 .col-3 {
   clear: both;
-  width: 100%;
-  margin-top: 100px;
-  height: 500px;
+  height: 750px;
   padding: 50px;
-  margin: 100px auto;
-  background-color: rgb(217, 208, 208);
+  margin: 20px auto;
+  margin-top: 130px;
+}
+.div-col-3 {
+  width: 90%;
+  height: auto;
+  margin: 25px auto;
 }
 .col-3-section {
-  width: 70%;
+  width: 335px;
   float: left;
-  margin-left: 100px;
-  margin-right: 100px;
-  padding: 25px;
-  width: 200px;
-  height: 450px;
+  height: 583px;
+  margin: 25px 25px;
   background-color: white;
+  padding: 15px;
 }
 .col-3-p-1,
 .col-3-p-2,
 .col-3-p-3 {
-  background-color: rgb(217, 208, 208);
-  margin: 10px;
-  padding: 15px;
+  height: 42px;
+  width: 285px;
+  margin: 25px;
 }
 .col-3-div-1,
 .col-3-div-2,
 .col-3-div-3 {
-  background-color: rgb(217, 208, 208);
-  height: 100px;
-  margin: 10px;
-  padding: 35px;
+  height: 220px;
+  width: 285px;
+  margin: 25px;
 }
 .row-4 {
   clear: both;
-  width: 700px;
+  width: 500px;
   height: 700px;
   margin: 25px auto;
+  margin-bottom: 50px;
 }
 .row-4-col-4 {
   width: 300px;
   margin: 35px auto;
   height: 50px;
-  background-color: rgb(217, 208, 208);
 }
-.row-4-col-4-1 {
-  float: left;
-  width: 100%;
-  margin: 10px auto;
-  height: 50px;
-  background-color: rgb(217, 208, 208);
+.row-4-col-4-1,.row-4-col-4-2{
+  width:500px;
+  height:65px;
+  margin: 15px 0;
 }
 .row-4-col-4-2 {
-  width: 100%;
-  float: left;
-  height: 250px;
-  margin: 10px auto;
-  background-color: rgb(217, 208, 208);
+  height: 270px;
 }
 .row-4-col-4-3 {
-  background-color: rgb(217, 208, 208);
-  margin-top: 20px;
-  width: 220px;
+  margin-top: 15px;
+  width: 240px;
   height: 50px;
-  padding-right: 100px;
   float: left;
 }
 .row-4-col-4-4 {
-  background-color: rgb(217, 208, 208);
-  margin-top: 20px;
-  padding-right: 100px;
-  width: 220px;
+  margin-top: 15px;
+  width: 240px;
   height: 50px;
   float: right;
 }
 .row-5 {
+  height: 350px;
   clear: both;
-  padding: 50px;
-  background-color: rgb(217, 208, 208);
-  width: 100%;
-  margin: 25px auto;
-  height: 400px;
+  padding: 30px;
 }
 .col-4 {
-  width: 40%;
-  margin: 30px;
-  padding-right: 30px;
-  padding-bottom: 40px;
-  height: 250px;
+  width: 700px;
+  height: 350px;
   background-color: whitesmoke;
 }
 .col-4-1 {
   float: left;
+  padding-right: 15px;
 }
 .col-4-2 {
   float: right;
+  padding-left: 15px;
 }
